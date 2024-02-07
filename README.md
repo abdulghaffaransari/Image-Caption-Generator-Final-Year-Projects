@@ -2,8 +2,72 @@
 
 Welcome to my Final Year Project! This repository showcases my work in the field of image captioning. I employed state-of-the-art technology, using the Visual Transformer (ViT) as the encoder and the BERT Transformer as the decoder. Our goal was to generate high-quality image captions.
 
-## Dataset
-To evaluate our approach, we used the widely recognized Common Objects in Context (COCO) dataset. You can access the dataset on Kaggle via the following link: [COCO Dataset on Kaggle](https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset). COCO provides a rich resource of annotated images for object detection, segmentation, and captioning.
+# Readme
 
-Feel free to explore the code and project details in this repository to learn more about our image captioning research. Your feedback and contributions are highly appreciated!
+Image Captioning with Vision Transformer and BERT
+
+This project utilizes a Vision Transformer (ViT) along with BERT for image captioning tasks. It leverages the COCO dataset for training and evaluation.
+
+Prerequisites:
+
+## Make sure you have the following dependencies installed:
+
+- Python 3.x
+- PyTorch
+- Transformers
+- PIL
+- Matplotlib
+- NumPy
+- Pandas
+- NLTK
+- COCO API
+- Hugging Face Datasets
+- Rouge Score
+
+You can install the necessary dependencies using the provided requirements.txt file:
+
+pip install -r requirements.txt
+
+Usage:
+
+1. Clone this repository:
+
+git clone https://github.com/your_username/image-captioning.git
+
+2. Navigate to the project directory:
+
+cd image-captioning
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+
+4. Run the Jupyter notebook final-notebook-with-coco.ipynb:
+
+jupyter notebook final-notebook-with-coco.ipynb
+
+5. Follow the instructions provided in the notebook for training, evaluation, and inference.
+
+## Model:
+
+The model architecture consists of a Vision Encoder-Decoder model. The encoder utilizes a Vision Transformer (ViT), while the decoder is based on BERT.
+
+## Training:
+
+The model is trained using the COCO dataset, which contains images and corresponding captions. Training hyperparameters and configurations can be adjusted in the config class within the notebook.
+
+## Evaluation:
+
+Evaluation is performed using Rouge scores, which measure the quality of generated captions compared to ground truth captions.
+
+## Inference:
+
+You can perform inference on both images from the COCO dataset and external images. The model generates captions for input images using the trained model.
+
+## Credits:
+
+- This project is inspired by the work of various researchers in the field of image captioning.
+- The COCO dataset is provided by the COCO Consortium.
+
+Feel free to modify and customize this README file according to your project's specific details and requirements.
 ---
