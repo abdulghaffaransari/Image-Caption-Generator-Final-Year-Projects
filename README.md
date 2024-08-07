@@ -62,12 +62,11 @@ Evaluation is performed using Rouge scores, which measure the quality of generat
 
 ## Inference:
 
-You can perform inference on both images from the COCO dataset and external images. The model generates captions for input images using the trained model.
+You can make inferences on both images from the COCO dataset and external images. The model generates captions for input images using the trained model.
 
 ## Credits:
 
-- This project is inspired by the work of various researchers in the field of image captioning.
-- The COCO dataset is provided by the COCO Consortium.
+- The work of various researchers in the field of image captioning inspires this project.
+- The COCO Consortium provides the COCO dataset.
 
-Feel free to modify and customize this README file according to your project's specific details and requirements.
 ---
